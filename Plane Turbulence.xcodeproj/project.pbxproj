@@ -11,6 +11,30 @@
 		EE64D28D2BCEAFF80077FAF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D28C2BCEAFF80077FAF6 /* ContentView.swift */; };
 		EE64D28F2BCEAFFB0077FAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE64D28E2BCEAFFB0077FAF6 /* Assets.xcassets */; };
 		EE64D2922BCEAFFB0077FAF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE64D2912BCEAFFB0077FAF6 /* Preview Assets.xcassets */; };
+		EE64D29C2BCEB0250077FAF6 /* RulesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D29B2BCEB0250077FAF6 /* RulesData.swift */; };
+		EE64D2A12BCEB1530077FAF6 /* MainVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2A02BCEB1530077FAF6 /* MainVIew.swift */; };
+		EE64D2A32BCEB4320077FAF6 /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2A22BCEB4320077FAF6 /* LevelsView.swift */; };
+		EE64D2A62BCEB5430077FAF6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2A52BCEB5430077FAF6 /* SettingsView.swift */; };
+		EE64D2A82BCEB75E0077FAF6 /* LevelsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2A72BCEB75E0077FAF6 /* LevelsData.swift */; };
+		EE64D2AA2BCEB9F90077FAF6 /* ZenAntique-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE64D2A92BCEB9F80077FAF6 /* ZenAntique-Regular.ttf */; };
+		EE64D2AD2BCEBCF80077FAF6 /* GameMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2AC2BCEBCF80077FAF6 /* GameMusic.swift */; };
+		EE64D2B02BCEBD2D0077FAF6 /* main_menu.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE64D2AF2BCEBD2D0077FAF6 /* main_menu.wav */; };
+		EE64D2B22BCEBDF80077FAF6 /* back.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE64D2B12BCEBDF80077FAF6 /* back.wav */; };
+		EE64D2B52BCEC9100077FAF6 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2B42BCEC9100077FAF6 /* RulesView.swift */; };
+		EE64D2B82BCED4600077FAF6 /* StorePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2B72BCED4600077FAF6 /* StorePreviewView.swift */; };
+		EE64D2BA2BCED4680077FAF6 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2B92BCED4680077FAF6 /* StoreView.swift */; };
+		EE64D2BD2BCED7100077FAF6 /* CollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2BC2BCED7100077FAF6 /* CollectionsView.swift */; };
+		EE64D2BF2BCED97F0077FAF6 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2BE2BCED97F0077FAF6 /* Preferences.swift */; };
+		EE64D2C12BCEE4070077FAF6 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2C02BCEE4070077FAF6 /* GameView.swift */; };
+		EE64D2C32BCEE4260077FAF6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2C22BCEE4250077FAF6 /* GameScene.swift */; };
+		EE64D2C52BCEE4830077FAF6 /* plane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE64D2C42BCEE4830077FAF6 /* plane.mp3 */; };
+		EE64D2C72BCEE48F0077FAF6 /* bonus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE64D2C62BCEE48F0077FAF6 /* bonus.mp3 */; };
+		EE64D2C92BCEE4980077FAF6 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE64D2C82BCEE4980077FAF6 /* win.mp3 */; };
+		EE64D2CB2BCEE4A30077FAF6 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE64D2CA2BCEE4A20077FAF6 /* lose.mp3 */; };
+		EE64D2D02BCFE8420077FAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE64D2CE2BCFE8420077FAF6 /* Assets.xcassets */; };
+		EE64D2D22BCFE9D60077FAF6 /* PausedGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2D12BCFE9D60077FAF6 /* PausedGameView.swift */; };
+		EE64D2D42BCFED850077FAF6 /* GameWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2D32BCFED850077FAF6 /* GameWinView.swift */; };
+		EE64D2D62BCFEFF30077FAF6 /* GameLoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2D52BCFEFF30077FAF6 /* GameLoseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +43,31 @@
 		EE64D28C2BCEAFF80077FAF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE64D28E2BCEAFFB0077FAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE64D2912BCEAFFB0077FAF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE64D29B2BCEB0250077FAF6 /* RulesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesData.swift; sourceTree = "<group>"; };
+		EE64D2A02BCEB1530077FAF6 /* MainVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVIew.swift; sourceTree = "<group>"; };
+		EE64D2A22BCEB4320077FAF6 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
+		EE64D2A52BCEB5430077FAF6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EE64D2A72BCEB75E0077FAF6 /* LevelsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsData.swift; sourceTree = "<group>"; };
+		EE64D2A92BCEB9F80077FAF6 /* ZenAntique-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenAntique-Regular.ttf"; sourceTree = "<group>"; };
+		EE64D2AB2BCEBA1B0077FAF6 /* Plane-Turbulence-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Plane-Turbulence-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE64D2AC2BCEBCF80077FAF6 /* GameMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMusic.swift; sourceTree = "<group>"; };
+		EE64D2AF2BCEBD2D0077FAF6 /* main_menu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = main_menu.wav; sourceTree = "<group>"; };
+		EE64D2B12BCEBDF80077FAF6 /* back.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = back.wav; sourceTree = "<group>"; };
+		EE64D2B42BCEC9100077FAF6 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		EE64D2B72BCED4600077FAF6 /* StorePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorePreviewView.swift; sourceTree = "<group>"; };
+		EE64D2B92BCED4680077FAF6 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		EE64D2BC2BCED7100077FAF6 /* CollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsView.swift; sourceTree = "<group>"; };
+		EE64D2BE2BCED97F0077FAF6 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		EE64D2C02BCEE4070077FAF6 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		EE64D2C22BCEE4250077FAF6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EE64D2C42BCEE4830077FAF6 /* plane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = plane.mp3; sourceTree = "<group>"; };
+		EE64D2C62BCEE48F0077FAF6 /* bonus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bonus.mp3; sourceTree = "<group>"; };
+		EE64D2C82BCEE4980077FAF6 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		EE64D2CA2BCEE4A20077FAF6 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		EE64D2CE2BCFE8420077FAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE64D2D12BCFE9D60077FAF6 /* PausedGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PausedGameView.swift; sourceTree = "<group>"; };
+		EE64D2D32BCFED850077FAF6 /* GameWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWinView.swift; sourceTree = "<group>"; };
+		EE64D2D52BCFEFF30077FAF6 /* GameLoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLoseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +100,19 @@
 		EE64D2892BCEAFF80077FAF6 /* Plane Turbulence */ = {
 			isa = PBXGroup;
 			children = (
+				EE64D2CC2BCFE82B0077FAF6 /* Particles */,
+				EE64D2AE2BCEBD240077FAF6 /* Audio */,
+				EE64D2AB2BCEBA1B0077FAF6 /* Plane-Turbulence-Info.plist */,
+				EE64D29A2BCEB0170077FAF6 /* Data */,
+				EE64D2992BCEB00E0077FAF6 /* Scenes */,
+				EE64D2982BCEB0090077FAF6 /* Views */,
 				EE64D28A2BCEAFF80077FAF6 /* Plane_TurbulenceApp.swift */,
 				EE64D28C2BCEAFF80077FAF6 /* ContentView.swift */,
 				EE64D28E2BCEAFFB0077FAF6 /* Assets.xcassets */,
+				EE64D2A92BCEB9F80077FAF6 /* ZenAntique-Regular.ttf */,
 				EE64D2902BCEAFFB0077FAF6 /* Preview Content */,
+				EE64D2AC2BCEBCF80077FAF6 /* GameMusic.swift */,
+				EE64D2BE2BCED97F0077FAF6 /* Preferences.swift */,
 			);
 			path = "Plane Turbulence";
 			sourceTree = "<group>";
@@ -65,6 +123,118 @@
 				EE64D2912BCEAFFB0077FAF6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE64D2982BCEB0090077FAF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2BB2BCED7030077FAF6 /* Collections */,
+				EE64D2B62BCED44B0077FAF6 /* Store */,
+				EE64D2B32BCEC9030077FAF6 /* RulesGame */,
+				EE64D2A42BCEB5320077FAF6 /* Settings */,
+				EE64D29F2BCEB1470077FAF6 /* Levels */,
+				EE64D29E2BCEB1350077FAF6 /* Game */,
+				EE64D29D2BCEB12F0077FAF6 /* MainView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE64D2992BCEB00E0077FAF6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2C22BCEE4250077FAF6 /* GameScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EE64D29A2BCEB0170077FAF6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D29B2BCEB0250077FAF6 /* RulesData.swift */,
+				EE64D2A72BCEB75E0077FAF6 /* LevelsData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EE64D29D2BCEB12F0077FAF6 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2A02BCEB1530077FAF6 /* MainVIew.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		EE64D29E2BCEB1350077FAF6 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2C02BCEE4070077FAF6 /* GameView.swift */,
+				EE64D2D12BCFE9D60077FAF6 /* PausedGameView.swift */,
+				EE64D2D32BCFED850077FAF6 /* GameWinView.swift */,
+				EE64D2D52BCFEFF30077FAF6 /* GameLoseView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EE64D29F2BCEB1470077FAF6 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2A22BCEB4320077FAF6 /* LevelsView.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		EE64D2A42BCEB5320077FAF6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2A52BCEB5430077FAF6 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EE64D2AE2BCEBD240077FAF6 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2B12BCEBDF80077FAF6 /* back.wav */,
+				EE64D2AF2BCEBD2D0077FAF6 /* main_menu.wav */,
+				EE64D2C42BCEE4830077FAF6 /* plane.mp3 */,
+				EE64D2C62BCEE48F0077FAF6 /* bonus.mp3 */,
+				EE64D2C82BCEE4980077FAF6 /* win.mp3 */,
+				EE64D2CA2BCEE4A20077FAF6 /* lose.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		EE64D2B32BCEC9030077FAF6 /* RulesGame */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2B42BCEC9100077FAF6 /* RulesView.swift */,
+			);
+			path = RulesGame;
+			sourceTree = "<group>";
+		};
+		EE64D2B62BCED44B0077FAF6 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2B72BCED4600077FAF6 /* StorePreviewView.swift */,
+				EE64D2B92BCED4680077FAF6 /* StoreView.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		EE64D2BB2BCED7030077FAF6 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2BC2BCED7100077FAF6 /* CollectionsView.swift */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		EE64D2CC2BCFE82B0077FAF6 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2CE2BCFE8420077FAF6 /* Assets.xcassets */,
+			);
+			path = Particles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +295,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE64D2B02BCEBD2D0077FAF6 /* main_menu.wav in Resources */,
+				EE64D2CB2BCEE4A30077FAF6 /* lose.mp3 in Resources */,
+				EE64D2D02BCFE8420077FAF6 /* Assets.xcassets in Resources */,
+				EE64D2C72BCEE48F0077FAF6 /* bonus.mp3 in Resources */,
+				EE64D2B22BCEBDF80077FAF6 /* back.wav in Resources */,
 				EE64D2922BCEAFFB0077FAF6 /* Preview Assets.xcassets in Resources */,
+				EE64D2AA2BCEB9F90077FAF6 /* ZenAntique-Regular.ttf in Resources */,
+				EE64D2C52BCEE4830077FAF6 /* plane.mp3 in Resources */,
 				EE64D28F2BCEAFFB0077FAF6 /* Assets.xcassets in Resources */,
+				EE64D2C92BCEE4980077FAF6 /* win.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +315,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE64D2C32BCEE4260077FAF6 /* GameScene.swift in Sources */,
 				EE64D28D2BCEAFF80077FAF6 /* ContentView.swift in Sources */,
+				EE64D2B82BCED4600077FAF6 /* StorePreviewView.swift in Sources */,
+				EE64D2BD2BCED7100077FAF6 /* CollectionsView.swift in Sources */,
+				EE64D2BA2BCED4680077FAF6 /* StoreView.swift in Sources */,
+				EE64D2A12BCEB1530077FAF6 /* MainVIew.swift in Sources */,
+				EE64D2D22BCFE9D60077FAF6 /* PausedGameView.swift in Sources */,
+				EE64D29C2BCEB0250077FAF6 /* RulesData.swift in Sources */,
+				EE64D2C12BCEE4070077FAF6 /* GameView.swift in Sources */,
+				EE64D2D42BCFED850077FAF6 /* GameWinView.swift in Sources */,
+				EE64D2A82BCEB75E0077FAF6 /* LevelsData.swift in Sources */,
+				EE64D2A62BCEB5430077FAF6 /* SettingsView.swift in Sources */,
+				EE64D2B52BCEC9100077FAF6 /* RulesView.swift in Sources */,
+				EE64D2D62BCFEFF30077FAF6 /* GameLoseView.swift in Sources */,
+				EE64D2BF2BCED97F0077FAF6 /* Preferences.swift in Sources */,
+				EE64D2AD2BCEBCF80077FAF6 /* GameMusic.swift in Sources */,
+				EE64D2A32BCEB4320077FAF6 /* LevelsView.swift in Sources */,
 				EE64D28B2BCEAFF80077FAF6 /* Plane_TurbulenceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,11 +469,13 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Plane-Turbulence-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +483,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Plane-Turbulence";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,11 +503,13 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Plane-Turbulence-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +517,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Plane-Turbulence";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

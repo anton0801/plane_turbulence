@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "technja3_Ad_banner_for_Aviator_slot_machine_Old_red_plane_on_th_b8184308-7f8e-48eb-970a-e71785c03c62.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "technja3_Ad_banner_for_Aviator_slot_machine_Old_red_plane_on_th_b8184308-7f8e-48eb-970a-e71785c03c62 (1).png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "technja3_Ad_banner_for_Aviator_slot_machine_Old_red_plane_on_th_b8184308-7f8e-48eb-970a-e71785c03c62 (2).png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
